@@ -2078,7 +2078,7 @@
           0.2
         ],
         "text-size": 12,
-        "text-transform": "uppercase",
+        "text-transform": "none",
         "symbol-sort-key": [
           "case",
           [
@@ -2182,7 +2182,7 @@
           0.2
         ],
         "text-size": 14,
-        "text-transform": "uppercase",
+        "text-transform": "none",
         "symbol-sort-key": [
           "case",
           [
