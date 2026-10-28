@@ -299,33 +299,18 @@
         "symbol-placement": "line",
         "symbol-spacing": 500,
         "text-field": [
-          "case",
+          "coalesce",
           [
-            "has",
-            "name:nonlatin"
+            "get",
+            "name:fr"
           ],
           [
-            "concat",
-            [
-              "get",
-              "name:latin"
-            ],
-            "\n",
-            [
-              "get",
-              "name:nonlatin"
-            ]
+            "get",
+            "name:latin"
           ],
           [
-            "coalesce",
-            [
-              "get",
-              "name_en"
-            ],
-            [
-              "get",
-              "name"
-            ]
+            "get",
+            "name"
           ]
         ],
         "text-font": [
@@ -1520,33 +1505,18 @@
         "symbol-placement": "line",
         "symbol-spacing": 350,
         "text-field": [
-          "case",
+          "coalesce",
           [
-            "has",
-            "name:nonlatin"
+            "get",
+            "name:fr"
           ],
           [
-            "concat",
-            [
-              "get",
-              "name:latin"
-            ],
-            " ",
-            [
-              "get",
-              "name:nonlatin"
-            ]
+            "get",
+            "name:latin"
           ],
           [
-            "coalesce",
-            [
-              "get",
-              "name_en"
-            ],
-            [
-              "get",
-              "name"
-            ]
+            "get",
+            "name"
           ]
         ],
         "text-font": [
@@ -1782,33 +1752,18 @@
       "layout": {
         "text-anchor": "center",
         "text-field": [
-          "case",
+          "coalesce",
           [
-            "has",
-            "name:nonlatin"
+            "get",
+            "name:fr"
           ],
           [
-            "concat",
-            [
-              "get",
-              "name:latin"
-            ],
-            "\n",
-            [
-              "get",
-              "name:nonlatin"
-            ]
+            "get",
+            "name:latin"
           ],
           [
-            "coalesce",
-            [
-              "get",
-              "name_en"
-            ],
-            [
-              "get",
-              "name"
-            ]
+            "get",
+            "name"
           ]
         ],
         "text-font": [
@@ -1861,33 +1816,18 @@
       "layout": {
         "text-anchor": "center",
         "text-field": [
-          "case",
+          "coalesce",
           [
-            "has",
-            "name:nonlatin"
+            "get",
+            "name:fr"
           ],
           [
-            "concat",
-            [
-              "get",
-              "name:latin"
-            ],
-            "\n",
-            [
-              "get",
-              "name:nonlatin"
-            ]
+            "get",
+            "name:latin"
           ],
           [
-            "coalesce",
-            [
-              "get",
-              "name_en"
-            ],
-            [
-              "get",
-              "name"
-            ]
+            "get",
+            "name"
           ]
         ],
         "text-font": [
@@ -1941,33 +1881,18 @@
         "icon-size": 0.4,
         "text-anchor": "left",
         "text-field": [
-          "case",
+          "coalesce",
           [
-            "has",
-            "name:nonlatin"
+            "get",
+            "name:fr"
           ],
           [
-            "concat",
-            [
-              "get",
-              "name:latin"
-            ],
-            "\n",
-            [
-              "get",
-              "name:nonlatin"
-            ]
+            "get",
+            "name:latin"
           ],
           [
-            "coalesce",
-            [
-              "get",
-              "name_en"
-            ],
-            [
-              "get",
-              "name"
-            ]
+            "get",
+            "name"
           ]
         ],
         "text-font": [
@@ -2039,33 +1964,18 @@
           "center"
         ],
         "text-field": [
-          "case",
+          "coalesce",
           [
-            "has",
-            "name:nonlatin"
+            "get",
+            "name:fr"
           ],
           [
-            "concat",
-            [
-              "get",
-              "name:latin"
-            ],
-            "\n",
-            [
-              "get",
-              "name:nonlatin"
-            ]
+            "get",
+            "name:latin"
           ],
           [
-            "coalesce",
-            [
-              "get",
-              "name_en"
-            ],
-            [
-              "get",
-              "name"
-            ]
+            "get",
+            "name"
           ]
         ],
         "text-font": [
@@ -2145,33 +2055,18 @@
           "center"
         ],
         "text-field": [
-          "case",
+          "coalesce",
           [
-            "has",
-            "name:nonlatin"
+            "get",
+            "name:fr"
           ],
           [
-            "concat",
-            [
-              "get",
-              "name:latin"
-            ],
-            "\n",
-            [
-              "get",
-              "name:nonlatin"
-            ]
+            "get",
+            "name:latin"
           ],
           [
-            "coalesce",
-            [
-              "get",
-              "name_en"
-            ],
-            [
-              "get",
-              "name"
-            ]
+            "get",
+            "name"
           ]
         ],
         "text-font": [
@@ -2182,12 +2077,25 @@
           0.5,
           0.2
         ],
-        "text-size": 10,
-        "text-transform": "uppercase"
+        "text-size": 12,
+        "text-transform": "uppercase",
+        "symbol-sort-key": [
+          "case",
+          [
+            "==",
+            [
+              "get",
+              "capital"
+            ],
+            2
+          ],
+          0,
+          1
+        ]
       },
       "paint": {
-        "icon-opacity": 0.7,
-        "text-color": "rgb(101,101,101)",
+        "icon-opacity": 1,
+        "text-color": "rgb(180,180,180)",
         "text-halo-blur": 1,
         "text-halo-color": "rgba(0,0,0,0.7)",
         "text-halo-width": 1
@@ -2251,33 +2159,18 @@
           "center"
         ],
         "text-field": [
-          "case",
+          "coalesce",
           [
-            "has",
-            "name:nonlatin"
+            "get",
+            "name:fr"
           ],
           [
-            "concat",
-            [
-              "get",
-              "name:latin"
-            ],
-            "\n",
-            [
-              "get",
-              "name:nonlatin"
-            ]
+            "get",
+            "name:latin"
           ],
           [
-            "coalesce",
-            [
-              "get",
-              "name_en"
-            ],
-            [
-              "get",
-              "name"
-            ]
+            "get",
+            "name"
           ]
         ],
         "text-font": [
@@ -2289,11 +2182,24 @@
           0.2
         ],
         "text-size": 14,
-        "text-transform": "uppercase"
+        "text-transform": "uppercase",
+        "symbol-sort-key": [
+          "case",
+          [
+            "==",
+            [
+              "get",
+              "capital"
+            ],
+            2
+          ],
+          0,
+          1
+        ]
       },
       "paint": {
-        "icon-opacity": 0.7,
-        "text-color": "rgb(101,101,101)",
+        "icon-opacity": 1,
+        "text-color": "rgb(180,180,180)",
         "text-halo-blur": 1,
         "text-halo-color": "rgba(0,0,0,0.7)",
         "text-halo-width": 1
@@ -2337,33 +2243,18 @@
       ],
       "layout": {
         "text-field": [
-          "case",
+          "coalesce",
           [
-            "has",
-            "name:nonlatin"
+            "get",
+            "name:fr"
           ],
           [
-            "concat",
-            [
-              "get",
-              "name:latin"
-            ],
-            "\n",
-            [
-              "get",
-              "name:nonlatin"
-            ]
+            "get",
+            "name:latin"
           ],
           [
-            "coalesce",
-            [
-              "get",
-              "name_en"
-            ],
-            [
-              "get",
-              "name"
-            ]
+            "get",
+            "name"
           ]
         ],
         "text-font": [
@@ -2433,33 +2324,18 @@
       ],
       "layout": {
         "text-field": [
-          "case",
+          "coalesce",
           [
-            "has",
-            "name:nonlatin"
+            "get",
+            "name:fr"
           ],
           [
-            "concat",
-            [
-              "get",
-              "name:latin"
-            ],
-            "\n",
-            [
-              "get",
-              "name:nonlatin"
-            ]
+            "get",
+            "name:latin"
           ],
           [
-            "coalesce",
-            [
-              "get",
-              "name_en"
-            ],
-            [
-              "get",
-              "name"
-            ]
+            "get",
+            "name"
           ]
         ],
         "text-font": [
@@ -2530,33 +2406,18 @@
       "layout": {
         "text-anchor": "center",
         "text-field": [
-          "case",
+          "coalesce",
           [
-            "has",
-            "name:nonlatin"
+            "get",
+            "name:fr"
           ],
           [
-            "concat",
-            [
-              "get",
-              "name:latin"
-            ],
-            "\n",
-            [
-              "get",
-              "name:nonlatin"
-            ]
+            "get",
+            "name:latin"
           ],
           [
-            "coalesce",
-            [
-              "get",
-              "name_en"
-            ],
-            [
-              "get",
-              "name"
-            ]
+            "get",
+            "name"
           ]
         ],
         "text-font": [
